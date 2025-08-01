@@ -11,4 +11,11 @@ import RTE from './RTE'
 import Signup from './Signup';
 import Login from './Login'
 import PostForm from './post-form/PostForm'
-export {PostForm, Login,Header, Footer , Container, Logo, LogoutButton ,Button, Input, Select, PostCard,RTE ,Signup};
+import AuthLayout from './AuthLayout'
+import AllPost from './pages/AllPost'
+import AddPost from './pages/AddPost'
+import EditPost from './pages/EditPost';
+import Post from './pages/Post'
+
+export  {Post,EditPost,AddPost,AllPost,AuthLayout,PostForm, Login,Header, Footer , Container, Logo, LogoutButton ,Button, Input, Select, PostCard,RTE ,Signup};
+

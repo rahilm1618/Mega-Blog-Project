@@ -6,7 +6,7 @@ import {useDispatch} from 'react-redux'
 import {logout} from '../../store/authSlice'
 
 
-function LogoutButton() {
+ function LogoutButton() {
     const dispatch = useDispatch();
     const logoutHandler =  () => {
         appwriteauth.logout().then(()=>{

@@ -8,4 +8,5 @@ function Button({ children,type="button",bgColor='bg-blue-500',textColor='text-w
     )
 }
 
+
 export default Button
