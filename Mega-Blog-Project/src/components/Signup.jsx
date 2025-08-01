@@ -1,10 +1,10 @@
-import React from 'react'
+
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import appwriteauth from '../appwrite/auth'
 import { login as authLogin } from '../store/authSlice'
-import { set, useForm } from 'react-hook-form'
+import { useForm } from 'react-hook-form'
 import { Button, Input, Logo } from './index'
 
 function Signup() {
@@ -84,11 +84,9 @@ function Signup() {
 
                             })}
                         />
-                        <Button
-                            children="Sign Up"
-                            type='submit'
-                            className='w-full'
-                        />
+                        <Button type="submit" className="w-full">
+                            Create Account
+                        </Button>
                     </div>
                 </form>
             </div>
